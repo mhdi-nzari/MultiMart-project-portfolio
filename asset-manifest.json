@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MultiMart-Store/static/css/main.aaba4b04.css",
-    "main.js": "/MultiMart-Store/static/js/main.9b3e5675.js",
+    "main.js": "/MultiMart-Store/static/js/main.a2c07368.js",
     "static/media/common-section-bg.jpg": "/MultiMart-Store/static/media/common-section-bg.8bb46ef53e088dff667e.jpg",
     "static/media/single-sofa-01.jpg": "/MultiMart-Store/static/media/single-sofa-01.db24b9feed7582c4e98d.jpg",
     "static/media/arm-chair-03.jpg": "/MultiMart-Store/static/media/arm-chair-03.3249f382638c86196acd.jpg",
@@ -29,10 +29,10 @@
     "static/media/wireless-01.png": "/MultiMart-Store/static/media/wireless-01.1a76d777727c50ca0294.png",
     "index.html": "/MultiMart-Store/index.html",
     "main.aaba4b04.css.map": "/MultiMart-Store/static/css/main.aaba4b04.css.map",
-    "main.9b3e5675.js.map": "/MultiMart-Store/static/js/main.9b3e5675.js.map"
+    "main.a2c07368.js.map": "/MultiMart-Store/static/js/main.a2c07368.js.map"
   },
   "entrypoints": [
     "static/css/main.aaba4b04.css",
-    "static/js/main.9b3e5675.js"
+    "static/js/main.a2c07368.js"
   ]
 }
