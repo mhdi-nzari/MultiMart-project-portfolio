@@ -17,12 +17,12 @@ const Cart = () => {
 
       <section>
         <div className="container">
-          <div className="flex w-full">
+          <div className="flex w-full flex-col lg:flex-row gap-10">
             <div className="flex basis-3/4">
               {cartItems.length === 0 ? (
                 <h2 className="text-3xl text-center">No Item to The Cart</h2>
               ) : (
-                <table className="table w-full  ">
+                <table className="table w-full border-collapse  ">
                   <thead className="border-b ">
                     <tr>
                       <th>Image</th>
@@ -70,13 +70,13 @@ const Tr = ({ item, index }) => {
 
   return (
     <tr key={index}>
-      <td>
+      <td className="py-5">
         <img src={item.image} alt="" />
       </td>
-      <td>{item.productName}</td>
-      <td>{item.price}</td>
-      <td>{item.quantity}</td>
-      <td>
+      <td className="py-5">{item.productName}</td>
+      <td className="py-5">{item.price}</td>
+      <td className="py-5">{item.quantity}</td>
+      <td className="py-5">
         <motion.span whileTap={{ scale: 0.8 }} onClick={deleteProduct}>
           <Trash
             size="20"
